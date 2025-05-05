@@ -1,0 +1,20 @@
+{
+    "name": "com.jetsimon.unity",
+    "version": "0.0.1",
+    "displayName": "Jet's Unity Boilerplate",
+    "description": "Unity Boilerplate Stuff",
+    "unity": "2022.3",
+    "unityRelease": "40f1",
+  
+    "dependencies": {
+
+   },
+   "keywords": [
+     
+    ],
+    "author": {
+      "name": "Jet Simon",
+      "email": "jetjdsimon@gmail.com",
+      "url": "https://www.jetsimon.com"
+    }
+  }
