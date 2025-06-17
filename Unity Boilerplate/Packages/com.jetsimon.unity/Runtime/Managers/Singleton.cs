@@ -13,6 +13,7 @@ namespace Boilerplate.Managers
             if (Instance == null)
             {
                 Instance = this as T;
+                AfterSetAsSingleton();
             }
             else
             {
@@ -27,6 +28,11 @@ namespace Boilerplate.Managers
             {
                 Instance = null;
             }
+        }
+
+        public virtual void AfterSetAsSingleton()
+        {
+            
         }
     }
 }
