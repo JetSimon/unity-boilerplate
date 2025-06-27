@@ -2,7 +2,7 @@
 {
     public class Controller<TModelType, TViewType> where TModelType : Model where TViewType : View
     {
-        public TModelType Model { get; private set; }
+        public TModelType Model { get; protected set; }
   
         public Controller(TModelType model)
         {
